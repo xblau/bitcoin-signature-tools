@@ -166,7 +166,7 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 0,
+        PUBKEY_ADDRESS = 48,
         SCRIPT_ADDRESS = 5,
         PUBKEY_ADDRESS_TEST = 111,
         SCRIPT_ADDRESS_TEST = 196,
@@ -258,7 +258,7 @@ public:
         bool fExpectTestNet = false;
         switch(nVersion)
         {
-            case 128:
+            case 176:
                 break;
 
             case 239:

@@ -7,7 +7,7 @@ using namespace std;
 #include "base58.h"
 
 bool fTestNet = false;
-const string strMessageMagic = "Bitcoin Signed Message:\n"; // from main.cpp
+const string strMessageMagic = "Litecoin Signed Message:\n"; // from main.cpp
 
 int main(int argc, char *argv[]) {
     if (argc != 4) {

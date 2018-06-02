@@ -7,13 +7,13 @@ using namespace std;
 #include "base58.h"
 
 bool fTestNet = false;
-const string strMessageMagic = "Bitcoin Signed Message:\n"; // from main.cpp
+const string strMessageMagic = "Litecoin Signed Message:\n"; // from main.cpp
 
 int main(int argc, char *argv[]) {
     if (argc != 3) {
         fprintf(stderr,
             "signmessage <base58privatekey> <message>\n\n"
-            "Sign a message using a Bitcoin private key.\n");
+            "Sign a message using a Litecoin private key.\n");
         return 255;
     }
 
